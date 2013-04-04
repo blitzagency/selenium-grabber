@@ -1,8 +1,3 @@
-Title:  Selenium Grabber
-Author: Daniel Smith | BLITZ
-Email:  dsmith@blitzagency.com
-Date:   April 3, 2013
-
 ## Installation ##
 ```shell
 brew install selenium-server-standalone  
