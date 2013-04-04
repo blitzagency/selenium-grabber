@@ -6,6 +6,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.selenium-server-standalone.p
 pip install selenium  
 ```
 ## Usage ##
+Sitemap should be formatted as a line delimited list of absolute URLs.
 ```shell
 python go.py <path_to_sitemap> <base_path> <image_output_path>
 ```
