@@ -1,0 +1,3 @@
+[submodule "varela-python-sitemap-parser"]
+	path = varela-python-sitemap-parser
+	url = git://github.com/varelaz/varela-python-sitemap-parser.git
