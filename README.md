@@ -3,7 +3,7 @@
 brew install selenium-server-standalone  
 ln -sfv /usr/local/opt/selenium-server-standalone/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.selenium-server-standalone.plist
-pip install selenium  
+pip install selenium beautifulsoup4 argparse requests unidecode
 ```
 ## Usage ##
 Sitemap should be formatted as a line delimited list of absolute URLs.
