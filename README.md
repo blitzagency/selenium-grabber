@@ -6,11 +6,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.selenium-server-standalone.p
 pip install selenium beautifulsoup4 argparse requests unidecode
 ```
 ## Usage ##
-Sitemap should be formatted as a line delimited list of absolute URLs.
+Sitemap should be standard SEO format.
 ```shell
-python go.py <path_to_sitemap> <base_path> <image_output_path>
-```
-## Example ##
-```shell
-python go.py "/path/to/sitemap.txt" "http://www.google.com/" "/path/to/images/"
+python go.py --url "http://www.aruba.com/sitemap.xml" --output /Users/blitz/Downloads/aruba-screenshots
 ```
