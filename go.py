@@ -52,5 +52,3 @@ if __name__ == '__main__':
         driver.get_screenshot_as_file(args.out+'/'+image_name+'.jpg')
 
     driver.close()
-
-
